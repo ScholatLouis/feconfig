@@ -1,0 +1,41 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.exclude": {
+        "out": false // set this to true to hide the "out" folder with the compiled JS files
+    },
+    "search.exclude": {
+        "out": true // set this to false to include "out" folder in search results
+    },
+    // Turn off tsc task auto detection since we have the necessary tasks as npm scripts
+    "typescript.tsc.autoDetect": "off",
+    "fe": {
+        // 插件配置
+        "plugin": [
+            "eamodio.gitlens",
+            "shengchen.vscode-leetcode",
+            "octref.vetur"
+        ],
+        // vscode配置
+        "configure": {
+            "editor.tabSize": 4,
+            "files.eol": "\r\n",
+            "files.associations": {
+                "*.wpy": "html",
+                "*.cjson": "jsonc",
+                "*.wa": "html",
+            }
+        },
+        // 代码片段配置
+        "snippets": {
+            "WaButton": "src/snippets/index.wa",
+            "WaPage": "src/snippets/page.wa"
+        }
+    },
+    "editor.tabSize": 4,
+    "files.eol": "\r\n",
+    "files.associations": {
+        "*.wpy": "html",
+        "*.cjson": "jsonc",
+        "*.wa": "html"
+    }
+}
