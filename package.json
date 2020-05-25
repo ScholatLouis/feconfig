@@ -8,9 +8,14 @@
 		"vscode": "^1.37.0"
 	},
 	"icon": "image/logo.webp",
-	"bugs": {
-			"email": "louiszengusa@gmail.com"
-	},
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/ScholatLouis/feconfig"
+    },
+    "bugs": {
+        "url": "https://github.com/ScholatLouis/feconfig/issues",
+		"email": "louiszengusa@gmail.com"
+    },
 	"categories": [
 		"Other"
 	],
